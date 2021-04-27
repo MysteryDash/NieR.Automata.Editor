@@ -1,16 +1,18 @@
 ﻿# NieR.Automata.Editor
 <p align="center">
-	<a href="LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/LazyPlatypus9/NieR.Automata.Editor"></a>
-	<a href="https://github.com/LazyPlatypus9/NieR.Automata.Editor/releases"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/LazyPlatypus9/NieR.Automata.Editor/total"></a>
+	<a href="https://ko-fi.com/C0C01KYIH"><img alt="ko-fi" src="https://www.ko-fi.com/img/githubbutton_sm.svg"/></a> 
 	<br />
-	<a href="https://github.com/LazyPlatypus9/NieR.Automata.Editor/releases"><img alt="screenshot" src="https://user-images.githubusercontent.com/4283036/79066303-d2927e80-7cf1-11ea-9e98-a85e4cec537e.png"></a>
+	<a href="LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/MysteryDash/NieR.Automata.Editor"></a>
+	<a href="https://github.com/MysteryDash/NieR.Automata.Editor/releases"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/MysteryDash/NieR.Automata.Editor/total"></a>
+	<br />
+	<a href="https://github.com/MysteryDash/NieR.Automata.Editor/releases"><img alt="screenshot" src="https://user-images.githubusercontent.com/4283036/79066303-d2927e80-7cf1-11ea-9e98-a85e4cec537e.png"></a>
 </p>
 
 A simple yet effective NieR: Automata save editor.
 
 ## Getting Started
 
-Go to the [Releases](https://github.com/LazyPlatypus9/NieR.Automata.Editor/releases) page and download the latest version available.
+Go to the [Releases](https://github.com/MysteryDash/NieR.Automata.Editor/releases) page and download the latest version available.
 
 ## Make Backups!
 
@@ -42,12 +44,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Acknowledgments
 
-Big thanks to MysteryDash for making the original application. I noticed he archived the repo so I forked it and made the changes need to get it working.
-
 This project would not be what it is without the previous works of:
 - [CensoredUsername](https://github.com/CensoredUsername)
 - [JohnEdwa](https://github.com/JohnEdwa)
 - [micktu](https://github.com/micktu)
 - [Kerilk](https://github.com/Kerilk)
 - [wmltogether](https://github.com/wmltogether)
-- [MysteryDash](https://github.com/MysteryDash)
+- [LazyPlatypus9](https://github.com/LazyPlatypus9)
