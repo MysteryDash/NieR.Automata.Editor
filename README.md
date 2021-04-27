@@ -42,7 +42,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Acknowledgments
 
-Big thanks to MysteryDash for making the original application. I noticed he archived the repo so I forked it and made the changes need to get it working.
+Big thanks to MysteryDash for making the original application. I noticed he hasn't been active for a while so I forked the repo and made the changes needed to get it working.
 
 This project would not be what it is without the previous works of:
 - [CensoredUsername](https://github.com/CensoredUsername)
