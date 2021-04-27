@@ -5,6 +5,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Runtime.Remoting.Metadata.W3cXsd2001;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using BrightIdeasSoftware;
@@ -123,6 +124,31 @@ namespace NieR.Automata.Editor
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            _save.HeaderId = SoapHexBinary.Parse(headerIdBox.Text).Value;
+            _save.Name = characterNameBox.Text;
+            _save.Money = Convert.ToInt32(moneyUpDown.Value);
+            _save.Experience = Convert.ToInt32(experienceUpDown.Value);
+            
+            foreach (var item in inventoryListView.Objects)
+            {
+                _save.Inventory.Where(i => i.Id == (item as Item).Id).Select(i => i.Name == (item as Item).Name && i.Quantity == (item as Item).Quantity);
+            }
+
+            foreach (var item in corpseInventoryListView.Objects)
+            {
+                _save.CorpseInventory.Where(i => i.Id == (item as Item).Id).Select(i => i.Name == (item as Item).Name && i.Quantity == (item as Item).Quantity);
+            }
+
+            foreach (var item in chipsListView.Objects)
+            {
+                _save.Chips.Where(i => i.Position == (item as Chip).Position).Select(i => i.Name == (item as Chip).Name && i.Level == (item as Chip).Level && i.Weight == (item as Chip).Weight);
+            }
+
+            foreach (var item in weaponsListView.Objects)
+            {
+                _save.Weapons.Where(i => i.Position == (item as Weapon).Position).Select(i => i.Obtained == (item as Weapon).Obtained && i.Level == (item as Weapon).Level);
+            }
+
             var backupPath = $"{_savePath}.bak";
             var createBackupResponse = MessageBox.Show("Would you like to create a backup before saving?",
                                                        "Create backup?", 
