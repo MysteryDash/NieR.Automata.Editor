@@ -50,4 +50,4 @@ This project would not be what it is without the previous works of:
 - [micktu](https://github.com/micktu)
 - [Kerilk](https://github.com/Kerilk)
 - [wmltogether](https://github.com/wmltogether)
-- [LazyPlatypus9](https://github.com/LazyPlatypus9)
+- [LazyPlatypus9](https://github.com/LazyPlatypus9) | Big thanks to them for fixing an issue I had left open.
